@@ -1,0 +1,22 @@
+{
+  "name": "backend_tally_js",
+  "version": "1.0.0",
+  "description": "Node.js/Express 1:1 port of Backend_Tally (Python/FastAPI) — Bank Statement / GSTR-2B / Tally Entry / GST Portal API. Drop-in replacement: same routes, same port, same CORS, same request/response shapes.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "exceljs": "^4.4.0",
+    "axios": "^1.7.7",
+    "fast-xml-parser": "^4.5.0",
+    "selenium-webdriver": "^4.27.0",
+    "chromedriver": "^131.0.0",
+    "uuid": "^11.0.3"
+  }
+}
